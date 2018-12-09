@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat');
+
+/* Jumbotron */
+.jumbotron {
+  margin: 15px 0px 0px 0px;
+}
+
+.container {
+  margin: 15px 200px 15px 200px;
+}
+
+.header, .italics {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+/* Social Media */
