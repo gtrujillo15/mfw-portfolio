@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat');
 
-/* Jumbotron */
+/* Jumbotron
 .jumbotron {
   margin: 15px 0px 0px 0px;
-}
+} */
+
+/* Navigation and About Me */
 
 .container {
   margin: 15px 200px 15px 200px;
@@ -20,9 +22,41 @@
   text-align: left;
 }
 
+.selfie {
+  align: right;
+  border-radius: 10px;
+}
+
+/* Projects */
+
+h3, p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.restaurante {
+  margin-top: 3%;
+}
+
 /* Social Media */
 
 .fab {
   font-size: 2em;
   color: #000;
+  margin-top: 10%;
+  margin-right: 32%;
+  padding-right: 10%;
+  position: relative;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 10%;
+    margin-right: 50%;
+    border-radius: 10px;
 }
