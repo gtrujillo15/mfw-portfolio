@@ -11,6 +11,13 @@
   margin: 15px 200px 15px 200px;
 }
 
+.name {
+  font-family: 'Dancing Script', cursive;
+  margin-top: 5%;
+  margin-right: 40%;
+  font-size: 1.5em;
+}
+
 .header, .italics {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
@@ -43,20 +50,65 @@ h3, p {
 .fab {
   font-size: 2em;
   color: #000;
-  margin-top: 10%;
-  margin-right: 32%;
-  padding-right: 10%;
-  position: relative;
+  margin-top: 50%;
+  margin-left: 13%;
+  margin-right: 25%;
+  position: absolute;
+  z-index: 2;
+}
+
+.fa-facebook-f {
+  /* position: absolute */
+  z-index: 10;
+  webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.fa-linkedin-in {
+  padding-left: 10%;
+  z-index: 3;
+  webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.fa-instagram {
+  padding-left: 23%;
+  z-index: 3;
+  webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.fa-twitter {
+  padding-left: 35%;
+  z-index: 3;
+  webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .rotate90 {
-    -webkit-transform: rotate(90deg);
+    webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    position: absolute;
-    margin-top: 10%;
-    margin-right: 50%;
+    position: relative;
+    margin-top: 5%;
+    margin-right: 20%;
     border-radius: 10px;
+    background-image: url('../img/beach.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 80%;
 }
